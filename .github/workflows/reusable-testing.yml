@@ -7,7 +7,7 @@ on:
         description: "Optional input to set a list of operating systems which the workflow uses. Defaults to 'ubuntu-latest' if not set"
         required: false
         type: string
-        default: 'ubuntu-latest'
+        default: '[ubuntu-latest]'
       node-version-file:
         description: "Optional input to set the version of Node.js used to build the project. The input syntax corresponds to the setup-node's format as of v4.2.0"
         required: false
